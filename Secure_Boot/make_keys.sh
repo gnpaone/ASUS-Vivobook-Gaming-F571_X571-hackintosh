@@ -17,8 +17,8 @@ cert-to-efi-sig-list -g "$GUID" PK.pem PK.esl
 cert-to-efi-sig-list -g "$GUID" KEK.pem KEK.esl
 cert-to-efi-sig-list -g "$GUID" ISK.pem ISK.esl
 
-openssl x509 -in MicWinProPCA2011_2011-10-19.crt -inform DER -out MsWin.pem -outform PEM
-openssl x509 -in MicCorUEFCA2011_2011-06-27.crt -inform DER -out UEFI.pem -outform PEM
+openssl x509 -in ./MicWinProPCA2011_2011-10-19.crt -inform DER -out MsWin.pem -outform PEM
+openssl x509 -in ./MicCorUEFCA2011_2011-06-27.crt -inform DER -out UEFI.pem -outform PEM
 cert-to-efi-sig-list -g "$GUID" MsWin.pem MsWin.esl
 cert-to-efi-sig-list -g "$GUID" UEFI.pem UEFI.esl
 cat ISK.esl MsWin.esl UEFI.esl > db.esl
