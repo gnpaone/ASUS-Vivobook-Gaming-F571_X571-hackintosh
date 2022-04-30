@@ -2,9 +2,7 @@
 
 Installation guide for my Hackintosh build dual-booting macOS Monterey and Windows 11. This build is based on [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/). The version numbers reported in this guide were the releases available at the time of installation and more than likely can be replaced with the latest iteration.
 
-![Specs](Images/image1.png)
-
-![About This Mac]()
+![About This Mac](Images/image1.png)
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/gnpaone)
 
